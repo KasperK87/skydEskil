@@ -1,10 +1,12 @@
 //skydEskil v0.9
 //test
+ master
 
 import processing.sound.*;
 boolean down;
 SoundFile gun;
 SoundFile damage;
+PImage cursor;
 
 Screen screenController;
 Game myGame;
@@ -13,6 +15,7 @@ void setup(){
    size(800,800);
    myGame = new Game();
    screenController = new Splashscreen();
+   cursor = loadImage("Crosshair.png");
    cursor(CROSS);
    imageMode(CENTER);
    

@@ -29,7 +29,7 @@ class Splashscreen extends Screen {
   PImage splash;
   
   Splashscreen(){
-    splash = loadImage("splash.jpg");
+    splash = loadImage("Splashscreen kill eskild.png");
     splash.resize(800,800);
   }
   
