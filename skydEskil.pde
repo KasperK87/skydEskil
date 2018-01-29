@@ -1,4 +1,4 @@
-//skydEskil v0.9
+//skydEskil v1.0
 
 import processing.sound.*;
 boolean down;
